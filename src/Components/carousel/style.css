@@ -30,7 +30,6 @@
 
     max-width: 93%;
     margin-bottom: 17px;
-
     box-shadow: var(--box-shadow);
     border-radius: 10px;
 }
@@ -88,13 +87,25 @@ article.nextSlide {
 }
 
 @media (max-width: 620px) {
-    .section-center {
-        scroll-snap-type: y mandatory;
-        overflow-x: scroll;
+
+    .prev,
+    .next {
+        opacity: 0;
     }
 
-    article {
-        scroll-snap-align: start;
-        position: relative;
+    .section-center {
+        height: 200px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 1100px) {
+
+    .prev,
+    .next {
+        opacity: 0;
+    }
+
+    .section-center {
+        height: 400px;
     }
 }
