@@ -20,12 +20,12 @@ const Carousel = () => {
 
     // for autoscrolling
 
-    /* useEffect(() => {
+    useEffect(() => {
         let slider = setInterval(() => setCurrentIndex(prevState => prevState + 1), 6000);
         return () => {
             clearInterval(slider);
         }
-    }, [currentIndex]) */
+    }, [currentIndex])
 
     return (
         <section>
