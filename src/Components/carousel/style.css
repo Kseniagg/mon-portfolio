@@ -90,9 +90,11 @@ article.nextSlide {
 @media (max-width: 620px) {
     .section-center {
         scroll-snap-type: y mandatory;
+        overflow-x: scroll;
     }
 
     article {
         scroll-snap-align: start;
+        position: relative;
     }
 }
