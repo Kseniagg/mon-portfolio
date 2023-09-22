@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleRight, faChevronCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import pagess from "./data.js";
 import "./style.css";
 
@@ -49,10 +51,10 @@ const Carousel = () => {
                 })}
 
                 <button className="prev" onClick={() => setCurrentIndex(prevState => prevState - 1)}>
-                    v
+                    <FontAwesomeIcon icon={faChevronCircleLeft} />
                 </button>
                 <button className="next" onClick={() => setCurrentIndex(prevState => prevState + 1)}>
-                    v
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
                 </button>
             </div>
         </section>

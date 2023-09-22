@@ -1,6 +1,9 @@
 :root {
     --transition: all 0.3s linear;
+    --radius: 0.25rem;
     --clr-primary-5: hsl(21, 62%, 45%);
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-white: #fff;
 }
 
 
@@ -61,21 +64,19 @@ article.nextSlide {
     position: absolute;
     top: 200px;
     transform: translateY(-50%);
-    width: 1.25rem;
-    height: 1.25rem;
+    /*  width: 1.25rem; */
+    /* height: 1.5rem; */
     display: grid;
     place-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    transition: var(--transition);
-    /* background: var(--clr-grey-5);
-    color: var(--clr-white);
-    border-radius: var(--radius); */
+    /* transition: var(--transition); */
+    color: var(--clr-grey-5);
 }
 
 .prev:hover,
 .next:hover {
-    background: var(--clr-primary-5);
+    color: var(--clr-primary-5);
 }
 
 .prev {
@@ -84,4 +85,14 @@ article.nextSlide {
 
 .next {
     right: 0;
+}
+
+@media (max-width: 620px) {
+    .section-center {
+        scroll-snap-type: y mandatory;
+    }
+
+    article {
+        scroll-snap-align: start;
+    }
 }

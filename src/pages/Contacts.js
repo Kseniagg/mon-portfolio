@@ -6,7 +6,8 @@ const Contacts = () => {
 
                 <ul className="content-list">
                     <li className="content-list__item">
-                        <h2 className="title-2">Location</h2>
+                        <h2 className="title-2">
+                            Emplacement</h2>
                         <p>Meudon, 92190</p>
                     </li>
                     <li className="content-list__item">

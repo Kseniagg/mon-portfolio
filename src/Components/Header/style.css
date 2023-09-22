@@ -22,20 +22,24 @@
 }
 
 .header__title {
-    margin-bottom: 20px;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.4;
 }
 
 .header__title strong {
-    font-size: 60px;
+    font-size: 22px;
     font-weight: 700;
 }
 
-.header__title em {
+.name em {
+    font-size: 60px;
     font-style: normal;
     color: var(--accent);
+}
+
+.name {
+    font-size: 36px;
 }
 
 .header__text {
@@ -46,4 +50,14 @@
 
 .header__text p+p {
     margin-top: 0.5em;
+}
+
+.social__item {
+    width: 22px;
+}
+
+.social {
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 1em;
 }
