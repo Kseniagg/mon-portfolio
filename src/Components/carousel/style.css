@@ -90,11 +90,19 @@ article.nextSlide {
 
     .prev,
     .next {
-        opacity: 0;
+        top: 80%;
+    }
+
+    .prev {
+        left: 38%;
+    }
+
+    .next {
+        right: 38%;
     }
 
     .section-center {
-        height: 200px;
+        height: 250px;
     }
 }
 
@@ -102,10 +110,18 @@ article.nextSlide {
 
     .prev,
     .next {
-        opacity: 0;
+        top: 90%;
+    }
+
+    .prev {
+        left: 45%;
+    }
+
+    .next {
+        right: 45%;
     }
 
     .section-center {
-        height: 400px;
+        height: 450px;
     }
 }
