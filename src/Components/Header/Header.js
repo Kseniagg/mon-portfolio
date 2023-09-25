@@ -16,7 +16,7 @@ const Header = () => {
 
 
                 <div className="header__text">
-                    <p>passionnés par l'apprentissage et la création</p>
+                    <p>passionnée par l'apprentissage et la création</p>
                 </div>
                 <Link to={CV} target="_blank" className="btn" download="CV_Kseniia_Gladkova">Télécharger CV</Link>
                 <ul className="social">
