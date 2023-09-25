@@ -16,47 +16,46 @@ const pagess = [
     },
     {
         id: 2,
-        image: shop,
-        title: "Page d'achat",
-        description: "Ajouter au panier",
-    },
-    {
-        id: 3,
-        image: create,
-        title: "Nouvel ami",
-        description: "Créer un nouveau compte",
-    },
-    {
-        id: 4,
-        image: connexion,
-        title: "Page connexion",
-        description: "Se connecter",
-    },
-    {
-        id: 5,
-        image: cart,
-        title: "Mon panier",
-        description: "Vérifier, supprimer et valider des commandes dans le panier",
-    },
-    {
-        id: 6,
-        image: account,
-        title: "Mon compte",
-        description: "Se renseigner, modifier, supprimer l'information",
-    },
-    {
-        id: 7,
         image: bdd,
         title: "bdd",
         description: "Utilisation de la base de données MySQL",
     },
     {
-        id: 8,
+        id: 3,
         image: responsive,
         title: "fgf",
         description: "Un site responsive",
+    },
+    {
+        id: 4,
+        image: shop,
+        title: "Page d'achat",
+        description: "Ajouter au panier",
+    },
+    {
+        id: 5,
+        image: create,
+        title: "Nouvel ami",
+        description: "Créer un nouveau compte",
+    },
+    {
+        id: 6,
+        image: connexion,
+        title: "Page connexion",
+        description: "Se connecter",
+    },
+    {
+        id: 7,
+        image: cart,
+        title: "Mon panier",
+        description: "Vérifier, supprimer et valider des commandes dans le panier",
+    },
+    {
+        id: 8,
+        image: account,
+        title: "Mon compte",
+        description: "Se renseigner, modifier, supprimer l'information",
     }
-
 ]
 
 export default pagess;
