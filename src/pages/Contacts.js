@@ -11,7 +11,7 @@ const Contacts = () => {
                         <p>Meudon, 92190</p>
                     </li>
                     <li className="content-list__item">
-                        <h2 className="title-2">Telegram / WhatsApp</h2>
+                        <h2 className="title-2">Tel. / WhatsApp</h2>
                         <p><a href="tel:+33769000098">07 69 00 00 98</a></p>
                     </li>
                     <li className="content-list__item">
