@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="header__text">
                     <p>passionnée par l'apprentissage et la création</p>
                 </div>
-                <Link to={CV} target="_blank" className="btn" download="CV_Kseniia_Gladkova">Télécharger CV</Link>
+                <Link to={CV} target="_blank" className="btn btn-header" download="CV_Kseniia_Gladkova">Télécharger CV</Link>
                 <ul className="social">
                     <li className="social__item"><Link to="https://github.com/Kseniagg" target="_blank"><img src={github} alt="Link" /></Link></li>
                     <li className="social__item"><Link to="https://www.linkedin.com/in/kseniia-gladkova/" target="_blank"><img src={linkedin} alt="Link" /></Link></li>

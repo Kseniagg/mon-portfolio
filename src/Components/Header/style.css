@@ -6,7 +6,11 @@
     justify-content: center;
     align-items: center;
 
-    background-color: var(--header-bg);
+    /* background-color: var(--header-bg); */
+    /* background-color: #90CBC9;
+    background-color: #374743; */
+    background-color: #29302E;
+    /* background: linear-gradient(25deg, rgba(128, 128, 143, 1) 13%, rgba(184, 224, 224, 1) 60%, rgba(175, 217, 229, 1) 100%); */
     background-image: url('./../../img/header-bg.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -14,6 +18,27 @@
 
     color: var(--header-text);
     text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.btn-header {
+    background: linear-gradient(45deg, #2980B9, #B770D8, #6DD5FA);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    border: 1px solid #ffffff;
 }
 
 .header__wrapper {
