@@ -18,10 +18,10 @@ const Carousel = () => {
         }
     }, [currentIndex, pages])
 
-    // for autoscrolling
+    // autoscrolling
 
     useEffect(() => {
-        let slider = setInterval(() => setCurrentIndex(prevState => prevState + 1), 6000);
+        let slider = setInterval(() => setCurrentIndex(prevState => prevState + 1), 7000);
         return () => {
             clearInterval(slider);
         }
