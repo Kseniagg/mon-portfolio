@@ -24,4 +24,17 @@
 
 .copyright p+p {
     margin-top: 0.5em;
+    text-align: center;
+
+}
+
+.badge {
+    background-color: var(--accent);
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+.badge a {
+    text-decoration: underline;
+    color: #ffffff;
 }
