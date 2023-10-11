@@ -11,7 +11,7 @@
     margin: 0 auto;
     margin-top: 1rem;
     width: 80vw;
-    height: 550px;
+    height: 503px;
     max-width: 1000px;
     text-align: center;
     position: relative;
@@ -90,19 +90,19 @@ article.nextSlide {
 
     .prev,
     .next {
-        top: 90%;
+        top: 47%;
     }
 
     .prev {
-        left: 38%;
+        left: 5%;
     }
 
     .next {
-        right: 38%;
+        right: 5%;
     }
 
     .section-center {
-        height: 250px;
+        height: 260px;
     }
 }
 
@@ -110,15 +110,15 @@ article.nextSlide {
 
     .prev,
     .next {
-        top: 90%;
+        top: 40%;
     }
 
     .prev {
-        left: 45%;
+        left: 4%;
     }
 
     .next {
-        right: 45%;
+        right: 4%;
     }
 
     .section-center {
