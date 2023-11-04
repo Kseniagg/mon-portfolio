@@ -8,6 +8,7 @@ const projects = [
         skills: 'React, Node.js, MySQL',
         img: project01,
         gitHubLink: 'https://github.com/Kseniagg/nourrirmonami',
+        site: 'https://nourrirmonami.vercel.app/',
     },
     {
         id: 2,

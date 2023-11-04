@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import BtnGitHub from "../Components/btnGitHub/BtnGitHub";
+import BtnProject from "../Components/btnProject/BtnProject";
 import { projects } from "./../helpers/projectsList";
 import Carousel from "../Components/carousel/Carousel";
 import datavizGif from "../img/projects/dataviz-gif.gif";
@@ -21,7 +22,12 @@ const ProjectDetails = () => {
                         <p>{project.skills}</p>
                     </div>
 
-                    {project.id === 1 && (<BtnGitHub link={project.gitHubLink} />)}
+                    {project.id === 1 && (
+                        <div className="project-details__box-btn">
+                            <BtnGitHub link={project.gitHubLink} />
+                            <BtnProject link={project.site} />
+                        </div>
+                    )}
 
                 </div>
             </div>
