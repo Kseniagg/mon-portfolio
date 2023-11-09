@@ -24,7 +24,7 @@ const Navbar = () => {
                                 isActive ? activeLink : normalLink
                             }
                         >
-                            Home
+                            Accueil
                         </NavLink>
                         </li>
 
