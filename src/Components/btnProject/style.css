@@ -1,7 +1,8 @@
 .icon {
-    width: 20%;
+    width: 15%;
 }
 
-.btn__project {
+.btn-outline.btn__project {
     justify-content: center;
+    padding: 0px;
 }

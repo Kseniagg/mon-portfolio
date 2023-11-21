@@ -211,7 +211,7 @@ body {
 
 .project-details__box-btn {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	width: 50%;
 }
 
@@ -296,6 +296,10 @@ body {
 	.project-details__desc {
 		margin-bottom: 20px;
 		font-size: 22px;
+	}
+
+	.project-details__box-btn {
+		width: 100%;
 	}
 
 	/* Content List */

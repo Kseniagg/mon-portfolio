@@ -5,7 +5,7 @@ const projects = [
     {
         id: 1,
         title: 'Nourrir mon ami',
-        skills: 'React, Node.js, MySQL',
+        skills: 'React, Node.js, MySQL, Redux',
         img: project01,
         gitHubLink: 'https://github.com/Kseniagg/nourrirmonami',
         site: 'https://nourrirmonami.vercel.app/',
