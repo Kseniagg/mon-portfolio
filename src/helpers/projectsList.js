@@ -1,5 +1,6 @@
 import project01 from "./../img/projects/01.png";
 import project02 from "./../img/projects/02.png";
+import project03 from "./../img/projects/03.PNG";
 
 const projects = [
     {
@@ -15,7 +16,7 @@ const projects = [
         title: 'DataViz',
         skills: 'JavaScript, d3.js',
         img: project02,
-    }
+    },
 ];
 
 export { projects }
