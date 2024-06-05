@@ -1,6 +1,6 @@
 import project01 from "./../img/projects/01.png";
 import project02 from "./../img/projects/02.png";
-import project03 from "./../img/projects/03.png";
+import project04 from "./../img/projects/04.PNG";
 
 const projects = [
     {
@@ -21,7 +21,7 @@ const projects = [
         id: 3,
         title: 'Psychologue',
         skills: 'JavaScript, React',
-        img: project03,
+        img: project04,
         gitHubLink: 'https://github.com/Kseniagg/psychologue',
         site: 'https://psychologue.vercel.app/',
     },

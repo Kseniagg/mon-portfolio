@@ -4,7 +4,7 @@ import BtnProject from "../Components/btnProject/BtnProject";
 import { projects } from "./../helpers/projectsList";
 import Carousel from "../Components/carousel/Carousel";
 import datavizGif from "../img/projects/dataviz-gif.gif";
-import imgpsy from "../img/projects/03.png";
+import imgpsy from "../img/projects/03.PNG";
 
 const ProjectDetails = () => {
     const { id } = useParams();
@@ -20,7 +20,7 @@ const ProjectDetails = () => {
                         <img src={datavizGif} alt="datavizGif" />
                     )}
                     {project.id === 3 && (
-                        <img src={imgpsy} alt="site_de_psychologue" />
+                        <img src={imgpsy} alt="sitedepsychologue" />
                     )}
                     <div className="project-details__desc">
                         <p>{project.skills}</p>
