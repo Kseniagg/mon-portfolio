@@ -4,6 +4,7 @@ import BtnProject from "../Components/btnProject/BtnProject";
 import { projects } from "./../helpers/projectsList";
 import Carousel from "../Components/carousel/Carousel";
 import datavizGif from "../img/projects/dataviz-gif.gif";
+import imgpsy from "../img/projects/03.png";
 
 const ProjectDetails = () => {
     const { id } = useParams();
@@ -18,14 +19,17 @@ const ProjectDetails = () => {
                     {project.id === 2 && (
                         <img src={datavizGif} alt="datavizGif" />
                     )}
+                    {project.id === 3 && (
+                        <img src={imgpsy} alt="site_de_psychologue" />
+                    )}
                     <div className="project-details__desc">
                         <p>{project.skills}</p>
                     </div>
 
-                    {project.id === 1 && (
+                    {project.id === 1 || project.id === 3 && (
                         <div className="project-details__box-btn">
-                            <BtnGitHub link={project.gitHubLink} />
                             <BtnProject link={project.site} />
+                            <BtnGitHub link={project.gitHubLink} />
                         </div>
                     )}
 
