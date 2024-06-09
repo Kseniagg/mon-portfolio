@@ -26,7 +26,13 @@ const ProjectDetails = () => {
                         <p>{project.skills}</p>
                     </div>
 
-                    {project.id === 1 || project.id === 3 && (
+                    {project.id === 1 && (
+                        <div className="project-details__box-btn">
+                            <BtnProject link={project.site} />
+                            <BtnGitHub link={project.gitHubLink} />
+                        </div>
+                    )}
+                    {project.id === 3 && (
                         <div className="project-details__box-btn">
                             <BtnProject link={project.site} />
                             <BtnGitHub link={project.gitHubLink} />
